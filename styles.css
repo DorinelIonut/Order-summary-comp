@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "red hat display", "sans-serif";
+    font-size: 16px;
+}
+
+.container {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text-cont {
+    padding: 7%;
+    text-align: center;
+}
+
+h2 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text-cont p.subtitle {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.plan-box {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-box-left {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.plan-box-left div {
+    margin-left: 20px;
+}
+
+.plan-box-left h5 {
+    font-weight: 900;
+    font-size: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-box-left p {
+    font-size: 14px;
+    color: gray;
+}
+
+.plan-box a {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    transition: color .3s ease;
+}
+
+.plan-box a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+a.proceed-btn {
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+    border-radius: 12px;
+    padding: 20px 0;
+    text-decoration: none;
+    color: white;
+    margin: 30px 0;
+    transition: background-color .3s ease;
+
+}
+
+a.proceed-btn:hover {
+    background-color: hsl(223, 47%, 23%);
+}
+
